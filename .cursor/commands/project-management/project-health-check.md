@@ -1,9 +1,3 @@
----
-allowed-tools: Read, Bash, Grep, Glob
-argument-hint: [evaluation-period] | --30-days | --sprint | --quarter
-description: Analyze overall project health and generate comprehensive metrics report
-model: sonnet
----
 
 # Project Health Check
 

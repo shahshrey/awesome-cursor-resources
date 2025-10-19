@@ -1,9 +1,3 @@
----
-allowed-tools: Read, Write, Edit, Bash
-argument-hint: [version-type] | --patch | --minor | --major | --prerelease
-description: Prepare and execute project release with version management and changelog updates
-model: sonnet
----
 
 # Project Release
 

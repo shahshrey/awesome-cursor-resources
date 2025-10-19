@@ -1,10 +1,3 @@
----
-allowed-tools: Read, Write, Edit, Grep, Glob
-argument-hint: [feature-name] | --template | --interactive
-description: Create Product Requirements Document (PRD) for new features
-model: sonnet
----
-
 # Create Product Requirements Document
 
 You are an experienced Product Manager. Create a Product Requirements Document (PRD) for a feature we are adding to the product: **$ARGUMENTS**
