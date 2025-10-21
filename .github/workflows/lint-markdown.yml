@@ -1,0 +1,43 @@
+name: Lint Markdown
+
+on:
+  pull_request:
+    paths:
+      - '**.md'
+      - '**.mdc'
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - '**.md'
+      - '**.mdc'
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  markdownlint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install markdownlint-cli
+        run: npm install -g markdownlint-cli
+
+      - name: Run markdownlint
+        run: markdownlint '**/*.md' '**/*.mdc' --ignore node_modules --config .markdownlint.json || true
+
+      - name: Markdown link check
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-quiet-mode: 'yes'
+          config-file: '.markdown-link-check.json'
+

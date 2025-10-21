@@ -1,1 +1,15 @@
 .DS_Store
+*.log
+*.tmp
+*.swp
+*~
+.env
+.env.local
+.env.*.local
+node_modules/
+.vscode/
+.idea/
+*.iml
+.cursor-tutor
+.cursor/settings.json
+lychee/

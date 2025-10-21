@@ -1,0 +1,12 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discussion Forum
+    url: https://github.com/shahshrey/awesome-cursor-resources/discussions
+    about: Ask questions and discuss ideas with the community
+  - name: Cursor Documentation
+    url: https://docs.cursor.com
+    about: Official Cursor IDE documentation
+  - name: Model Context Protocol
+    url: https://modelcontextprotocol.io
+    about: Learn about MCP for custom integrations
+

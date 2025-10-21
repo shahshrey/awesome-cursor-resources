@@ -1,0 +1,46 @@
+commands:
+  - changed-files:
+    - any-glob-to-any-file: '.cursor/commands/**/*'
+
+hooks:
+  - changed-files:
+    - any-glob-to-any-file: '.cursor/hooks/**/*'
+
+rules:
+  - changed-files:
+    - any-glob-to-any-file: '.cursor/rules/**/*'
+
+mcps:
+  - changed-files:
+    - any-glob-to-any-file: '.cursor/mcps/**/*'
+
+documentation:
+  - changed-files:
+    - any-glob-to-any-file: '**/*.md'
+    - any-glob-to-any-file: '**/*.mdc'
+
+automation:
+  - changed-files:
+    - any-glob-to-any-file: '.cursor/commands/automation/**/*'
+    - any-glob-to-any-file: '.cursor/hooks/automation/**/*'
+
+security:
+  - changed-files:
+    - any-glob-to-any-file: '.cursor/commands/security/**/*'
+    - any-glob-to-any-file: '.cursor/rules/security/**/*'
+
+github-workflows:
+  - changed-files:
+    - any-glob-to-any-file: '.github/workflows/**/*'
+
+database:
+  - changed-files:
+    - any-glob-to-any-file: '.cursor/commands/database/**/*'
+    - any-glob-to-any-file: '.cursor/rules/database/**/*'
+    - any-glob-to-any-file: '.cursor/mcps/database/**/*'
+
+devops:
+  - changed-files:
+    - any-glob-to-any-file: '.cursor/commands/deployment/**/*'
+    - any-glob-to-any-file: '.cursor/rules/devops-infrastructure/**/*'
+

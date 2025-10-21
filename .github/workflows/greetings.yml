@@ -1,0 +1,35 @@
+name: Greetings
+
+on:
+  issues:
+    types: [opened]
+  pull_request_target:
+    types: [opened]
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: |
+            👋 Hello! Thank you for opening your first issue in this repository. 
+            
+            We appreciate your contribution and will review it as soon as possible. Please make sure you've provided all the necessary information to help us understand and address your issue.
+            
+            In the meantime, feel free to explore our [documentation](../README.md) and other resources.
+          pr-message: |
+            👋 Hello! Thank you for your first pull request to this repository!
+            
+            We appreciate your contribution and will review it as soon as possible. Please make sure:
+            - Your PR has a clear description of what it does
+            - You've tested your changes
+            - Your code follows our contribution guidelines
+            
+            Looking forward to reviewing your work! 🚀
+

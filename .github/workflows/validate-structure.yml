@@ -1,0 +1,104 @@
+name: Validate Repository Structure
+
+on:
+  pull_request:
+    paths:
+      - '.cursor/**'
+  push:
+    branches:
+      - main
+      - master
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Validate file structure
+        run: |
+          echo "Checking directory structure..."
+          
+          REQUIRED_DIRS=(
+            ".cursor/commands"
+            ".cursor/hooks"
+            ".cursor/rules"
+            ".cursor/mcps"
+          )
+          
+          for dir in "${REQUIRED_DIRS[@]}"; do
+            if [ ! -d "$dir" ]; then
+              echo "❌ Required directory missing: $dir"
+              exit 1
+            else
+              echo "✅ Found: $dir"
+            fi
+          done
+
+      - name: Validate JSON files
+        run: |
+          echo "Validating JSON files..."
+          find .cursor/mcps -name "*.json" -print0 | while IFS= read -r -d '' file; do
+            if ! jq empty "$file" 2>/dev/null; then
+              echo "❌ Invalid JSON: $file"
+              exit 1
+            else
+              echo "✅ Valid JSON: $file"
+            fi
+          done
+
+      - name: Check shell script permissions
+        run: |
+          echo "Checking hook permissions..."
+          find .cursor/hooks -name "*.sh" -print0 | while IFS= read -r -d '' file; do
+            if [ ! -x "$file" ]; then
+              echo "⚠️  Not executable: $file"
+              chmod +x "$file"
+              echo "✅ Fixed permissions: $file"
+            else
+              echo "✅ Executable: $file"
+            fi
+          done
+
+      - name: Validate hook shebangs
+        run: |
+          echo "Validating shell script shebangs..."
+          find .cursor/hooks -name "*.sh" -print0 | while IFS= read -r -d '' file; do
+            if ! head -n 1 "$file" | grep -q "^#!/"; then
+              echo "❌ Missing shebang: $file"
+              exit 1
+            else
+              echo "✅ Has shebang: $file"
+            fi
+          done
+
+      - name: Check for broken internal links
+        run: |
+          echo "Checking internal links in markdown files..."
+          find . -name "*.md" -o -name "*.mdc" | while read -r file; do
+            grep -oP '\[.*?\]\(\K[^)]+' "$file" 2>/dev/null | while read -r link; do
+              if [[ "$link" == /* || "$link" == ./* ]]; then
+                target=$(dirname "$file")/"$link"
+                if [ ! -f "$target" ] && [ ! -d "$target" ]; then
+                  echo "⚠️  Broken link in $file: $link"
+                fi
+              fi
+            done
+          done
+
+      - name: Generate validation report
+        if: always()
+        run: |
+          echo "## Validation Report" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Structure Check" >> $GITHUB_STEP_SUMMARY
+          echo "- Commands: $(find .cursor/commands -type f | wc -l) files" >> $GITHUB_STEP_SUMMARY
+          echo "- Hooks: $(find .cursor/hooks -name '*.sh' | wc -l) files" >> $GITHUB_STEP_SUMMARY
+          echo "- Rules: $(find .cursor/rules -name '*.mdc' | wc -l) files" >> $GITHUB_STEP_SUMMARY
+          echo "- MCP Servers: $(find .cursor/mcps -name '*.json' | wc -l) files" >> $GITHUB_STEP_SUMMARY
+
