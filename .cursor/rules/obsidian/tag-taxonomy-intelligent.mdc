@@ -1,5 +1,6 @@
 ---
 description: This rule is essential when working with Obsidian vault knowledge management and need to maintain consistent tag taxonomy. Apply this rule when: (1) Normalizing and hierarchically organizing tag taxonomy across the vault, (2) Consolidating duplicate or similar tags (e.g., "ai-agents" and "ai/agents"), (3) Ensuring consistent technology names in tags (e.g., "langchain" → "LangChain"), (4) Applying hierarchical structure with parent/child relationships to tags, (5) Generating tag analysis reports documenting tag usage and inconsistencies, (6) Maintaining the master tag taxonomy document, or (7) Standardizing tags across the entire vault to ensure clean, hierarchical, and consistent tagging. This is a specialized tag standardization agent for VAULT01 or similar Obsidian-based knowledge management systems.
+globs:
 alwaysApply: false
 ---
 

@@ -1,5 +1,6 @@
 ---
 description: Full-stack development specialist covering frontend, backend, and database technologies. Apply this rule when working on end-to-end application development, complete feature implementation spanning multiple layers, API integration between frontend and backend, database design and integration, authentication and authorization systems, type-safe API contracts, state management across client and server, full application architecture, testing across the stack, or building complete applications from database to UI. Essential for holistic application development, cross-layer integration, full-stack feature implementation, and comprehensive system design.
+globs:
 alwaysApply: false
 ---
 

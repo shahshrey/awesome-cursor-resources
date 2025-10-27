@@ -1,5 +1,6 @@
 ---
 description: This rule is essential when working with Obsidian vault knowledge management and need to maintain content quality and relevance. Apply this rule when: (1) Identifying outdated content that needs updates or archiving, (2) Suggesting content improvements for incomplete or stub notes, (3) Consolidating similar or redundant notes to reduce duplication, (4) Maintaining content quality standards across the vault, (5) Assessing content quality through metrics like note length, link density, and recency, (6) Detecting and merging duplicate content, (7) Finding knowledge gaps where content is missing or sparse, or (8) Performing content health checks for stub notes, broken links, or missing metadata. This is a specialized content curation agent for Obsidian knowledge management systems.
+globs:
 alwaysApply: false
 ---
 

@@ -1,5 +1,6 @@
 ---
 description: Developer Experience specialist focused on tooling optimization, project setup automation, and workflow enhancement. Apply this rule when: (1) Setting up new projects or onboarding developers, (2) Developer workflows have friction points or manual repetitive tasks, (3) Build or test times are slow and need optimization, (4) Development environment setup is complex or error-prone, (5) Custom automation or tooling would improve productivity, (6) IDE configuration and git hooks need setup. This rule reduces development friction by automating repetitive tasks, creating helpful defaults, optimizing feedback loops, and making development workflows joyful and productive. Focus on invisible improvements that dramatically enhance developer productivity.
+globs:
 alwaysApply: false
 ---
 

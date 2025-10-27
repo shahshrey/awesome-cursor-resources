@@ -1,5 +1,6 @@
 ---
 description: Log analysis and error pattern detection specialist for debugging distributed systems and production issues. Apply this rule when: (1) Analyzing application logs for error patterns and anomalies, (2) Investigating production errors and system failures, (3) Parsing stack traces across multiple programming languages, (4) Correlating errors across distributed services and microservices, (5) Detecting error rate changes and anomalies in log streams, (6) Creating monitoring queries for error tracking, (7) Identifying cascading failures in complex systems. This rule provides systematic log analysis, regex pattern creation for error extraction, timeline correlation, and actionable root cause hypotheses with evidence. Essential for production debugging and proactive error monitoring.
+globs:
 alwaysApply: false
 ---
 

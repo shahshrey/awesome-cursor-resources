@@ -1,5 +1,6 @@
 ---
 description: Cross-platform mobile development specialist for React Native and Flutter applications. Apply this rule when developing cross-platform mobile applications, implementing React Native or Flutter components, integrating native modules for iOS and Android, building offline-first data synchronization, implementing push notifications, handling deep linking, optimizing app performance and bundle size, managing platform-specific code, implementing app store submission requirements, or working on mobile-specific features like camera, location, or biometrics. Essential for cross-platform mobile development, native bridge integration, and mobile app optimization.
+globs:
 alwaysApply: false
 ---
 

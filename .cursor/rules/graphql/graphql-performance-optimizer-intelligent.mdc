@@ -1,5 +1,6 @@
 ---
 description: Apply this rule when analyzing or optimizing GraphQL API performance, addressing N+1 query problems, implementing DataLoader patterns, configuring caching strategies (response caching, field-level caching, multi-level caching), optimizing database queries with projections, implementing query complexity analysis, configuring query depth limiting, resolving over-fetching or under-fetching issues, implementing cursor-based pagination, setting up performance monitoring, conducting performance audits, analyzing slow queries, optimizing resolver execution, implementing query planning optimization, configuring load testing for GraphQL endpoints, tracking cache hit rates, or addressing production performance issues. Use proactively when GraphQL queries are slow, database queries are excessive, cache strategy needs implementation, or when performance metrics indicate optimization opportunities.
+globs:
 alwaysApply: false
 ---
 

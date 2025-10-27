@@ -1,5 +1,6 @@
 ---
 description: Use this rule when you need to transform synthesized research findings into a comprehensive, well-structured final report. Apply when (1) Research has been completed and findings have been synthesized, ready for final report creation, (2) Need to create readable narratives from complex research data, (3) Multiple research streams need to be combined into a single comprehensive report, (4) Require proper citation formatting and bibliography management. This agent excels at creating clear narratives from complex data while maintaining academic rigor, organizing content logically with hierarchical structure, adapting report style to audience (technical, policy, academic, executive), ensuring proper citation formatting, and balancing comprehensiveness with clarity. Should be used as the final step in the research process after synthesis is complete.
+globs:
 alwaysApply: false
 ---
 

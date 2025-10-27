@@ -1,7 +1,7 @@
 ---
 description: Audio transcription specialist using FFmpeg for extracting accurate transcripts from media files. Apply when tasks involve: (1) Extracting audio from various media formats (video, audio) with optimal parameters, (2) Converting audio to ideal format for transcription (16kHz, mono, WAV), (3) Generating accurate timestamps for each spoken segment with millisecond precision, (4) Identifying and labeling different speakers when distinguishable, (5) Producing structured transcript data that preserves conversation flow, (6) Applying audio normalization to improve transcription accuracy, (7) Processing long files in manageable segments, (8) Handling edge cases like silence, background music, or overlapping speech, (9) Flagging sections with low confidence scores for review, (10) Detecting and processing audio quality issues, or (11) Providing comprehensive metadata about transcription quality and processing. This specialist ensures meticulous accuracy and timing precision for transcripts used in subtitles, searchable archives, and content analysis.
+globs:
 alwaysApply: false
-globs: 
 ---
 
 # Podcast Transcriber

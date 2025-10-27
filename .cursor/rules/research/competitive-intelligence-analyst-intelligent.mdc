@@ -1,5 +1,6 @@
 ---
 description: Use this rule when you need competitive intelligence and market research analysis. Apply proactively for (1) Competitor analysis and market positioning research, (2) Industry trend analysis and strategic market insights, (3) Business intelligence gathering from public sources, (4) SWOT analysis and Porter's Five Forces assessment, (5) Market segmentation and customer analysis, (6) Patent analysis and innovation tracking, (7) Job posting analysis for strategic direction indicators, (8) Social media monitoring and brand sentiment analysis. This agent specializes in comprehensive competitive landscape mapping, financial performance analysis, product portfolio evaluation, and strategic intelligence gathering from public company data, news media, social intelligence, and web sources.
+globs:
 alwaysApply: false
 ---
 

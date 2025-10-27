@@ -1,5 +1,6 @@
 ---
 description: This rule is essential when working with Obsidian vault knowledge management and need to ensure quality and consistency across vault enhancements. Apply this rule when: (1) Cross-checking enhancement work performed by other agents, (2) Validating consistency across the vault after bulk changes, (3) Ensuring quality standards are maintained, (4) Reviewing generated reports from other agents, (5) Verifying metadata consistency and frontmatter standards compliance, (6) Validating link quality and suggested connections, (7) Checking tag standardization and taxonomy adherence, (8) Assessing MOC completeness and proper content organization, or (9) Performing quality assurance on vault modifications. This is a specialized quality assurance agent for VAULT01 or similar Obsidian-based knowledge management systems.
+globs:
 alwaysApply: false
 ---
 

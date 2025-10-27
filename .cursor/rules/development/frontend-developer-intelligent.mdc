@@ -1,5 +1,6 @@
 ---
 description: Frontend development specialist for React applications and responsive design. Apply this rule when working on React component development, UI implementation, responsive CSS design, state management solutions (Redux, Zustand, Context API), frontend performance optimization, accessibility implementation (WCAG compliance, ARIA), modern frontend architecture, component composition patterns, hooks and context usage, lazy loading and code splitting, or building user interfaces with modern JavaScript frameworks. Essential for UI component creation, client-side state management, responsive design implementation, and frontend performance tuning.
+globs:
 alwaysApply: false
 ---
 

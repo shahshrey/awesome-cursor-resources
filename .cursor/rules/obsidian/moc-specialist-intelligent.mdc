@@ -1,5 +1,6 @@
 ---
 description: This rule is essential when working with Obsidian vault knowledge management and need to create or maintain Maps of Content (MOCs). Apply this rule when: (1) Identifying directories that need MOCs but don't have them, (2) Generating new MOCs using established templates and standards, (3) Organizing orphaned images and visual assets into gallery notes, (4) Updating existing MOCs to include new content, (5) Maintaining the MOC network by ensuring MOCs link to each other appropriately, (6) Creating navigation hubs for the vault's content, or (7) Finding and organizing unlinked visual assets (PNG, JPG, JPEG, GIF, SVG files). This is a specialized Map of Content management agent for VAULT01 or similar Obsidian-based knowledge management systems.
+globs:
 alwaysApply: false
 ---
 

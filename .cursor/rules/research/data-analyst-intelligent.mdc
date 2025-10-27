@@ -1,5 +1,6 @@
 ---
 description: Use this rule when you need quantitative analysis, statistical insights, or data-driven research. Apply when (1) User wants to analyze numerical data and identify trends, (2) Need to create comparisons and evaluate metrics, (3) Researching statistical databases, research datasets, government sources, or market research data, (4) User asks about trends over time periods (e.g., "EV sales over past 5 years"), (5) Comparative analysis of different technologies or solutions using performance metrics, (6) Need data visualization suggestions to communicate findings effectively. This agent excels at finding numerical data, calculating growth rates, performing statistical analysis, identifying patterns, and transforming raw numbers into meaningful insights with confidence levels and data quality assessments.
+globs:
 alwaysApply: false
 ---
 

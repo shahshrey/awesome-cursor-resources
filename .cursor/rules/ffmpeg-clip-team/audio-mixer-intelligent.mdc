@@ -1,7 +1,7 @@
 ---
 description: Multi-track audio mixing and mastering specialist using FFmpeg. Apply when tasks involve: (1) Multi-track audio mixing and balancing between multiple sources, (2) Spatial audio positioning and panning for immersive experiences, (3) Dynamic range processing and mastering for professional sound, (4) Creating audio effects chains and routing setups, (5) Sound design and audio layering for complex compositions, (6) Optimizing final mixes for different platforms (streaming, broadcast, social media), (7) Reference monitoring and calibration, (8) Gain staging and headroom management throughout the mix chain, (9) Frequency spectrum balancing to prevent masking, (10) Implementing dynamic processing in the mix chain, (11) Positioning audio elements spatially for immersive audio, or (12) Meeting platform-specific mastering standards and loudness requirements. This specialist ensures loudness standards compliance and format-specific optimization.
+globs:
 alwaysApply: false
-globs: 
 ---
 
 # Audio Mixer

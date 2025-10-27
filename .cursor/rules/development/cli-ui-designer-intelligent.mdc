@@ -1,5 +1,6 @@
 ---
 description: CLI/Terminal UI design specialist for creating terminal-inspired web interfaces with modern web technologies. Apply this rule when designing or implementing command-line interface aesthetics in web applications, terminal-themed user interfaces, CLI-style components, ASCII art integration, monospace typography systems, terminal color schemes, command-line UX patterns, or when building interfaces that need authentic terminal feel with modern web usability. Essential for projects requiring terminal emulation, developer tools interfaces, CLI documentation sites, or command-line inspired applications.
+globs:
 alwaysApply: false
 ---
 

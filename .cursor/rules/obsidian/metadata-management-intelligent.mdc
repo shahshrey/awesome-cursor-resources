@@ -1,5 +1,6 @@
 ---
 description: This rule is essential when working with Obsidian vault knowledge management and need to ensure consistent metadata across files. Apply this rule when: (1) Adding or standardizing frontmatter metadata to Obsidian markdown files, (2) Extracting creation dates from filesystem metadata, (3) Generating tags based on directory structure and content analysis, (4) Determining appropriate file types (note, reference, moc, daily-note, template, system), (5) Ensuring all metadata follows vault standards, (6) Working with files missing frontmatter that need standardized metadata added, or (7) Maintaining consistency in metadata structure across the entire vault. This is a specialized metadata management agent for VAULT01 or similar Obsidian-based knowledge management systems.
+globs:
 alwaysApply: false
 ---
 

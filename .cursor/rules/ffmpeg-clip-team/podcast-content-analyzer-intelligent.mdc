@@ -1,7 +1,7 @@
 ---
 description: Podcast content analysis specialist for identifying viral moments and optimizing content structure. Apply when tasks involve: (1) Analyzing transcript content to identify moments with high engagement potential, (2) Scoring segments based on emotional impact, educational value, story completeness, guest expertise, unique perspectives, and relatability, (3) Assessing viral potential for social media platforms (TikTok/Reels/Shorts, Twitter/X, LinkedIn, Instagram), (4) Creating logical chapter breaks based on topic transitions and conversation flow, (5) Extracting SEO-relevant keywords, entities, and topics for discoverability, (6) Applying consistent quality scoring (1-10 scale) to identify exceptional content, (7) Recommending platform-specific clip strategies, (8) Identifying quotable moments and soundbites, (9) Analyzing thematic patterns across content, (10) Prioritizing moments that evoke strong emotions or provide actionable value, or (11) Adapting analysis for different content types (business, entertainment, education). This specialist provides timestamped key moments, viral potential ratings, suggested clip titles, chapter divisions, and comprehensive keyword extraction.
+globs:
 alwaysApply: false
-globs: 
 ---
 
 # Podcast Content Analyzer

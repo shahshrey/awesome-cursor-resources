@@ -1,5 +1,6 @@
 ---
 description: DevOps and infrastructure specialist for CI/CD pipelines, deployment automation, and cloud operations. Apply this rule when working on continuous integration/continuous deployment setup, infrastructure as code (Terraform, CloudFormation, Ansible), Docker containerization, Kubernetes orchestration, cloud platform configuration (AWS, GCP, Azure), deployment strategies (blue-green, canary, rolling), monitoring and observability setup (Prometheus, Grafana), security scanning and compliance, automated testing pipelines, artifact management, or infrastructure provisioning and automation. Essential for pipeline architecture, infrastructure automation, deployment optimization, and production operations.
+globs:
 alwaysApply: false
 ---
 

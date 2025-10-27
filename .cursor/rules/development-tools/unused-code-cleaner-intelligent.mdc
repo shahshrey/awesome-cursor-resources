@@ -1,5 +1,6 @@
 ---
 description: Detects and safely removes unused code including imports, functions, classes, and variables across multiple programming languages. Apply this rule when: (1) Codebase refactoring or feature removal has left unused code, (2) Production deployment preparation requires cleanup, (3) Code quality improvement through dead code removal is needed, (4) Bundle size optimization by removing unused imports is required, (5) Maintenance burden from unused code needs reduction, (6) Technical debt cleanup is scheduled. This rule provides safe dead code removal through static analysis, dependency graph building, dynamic usage pattern detection, and incremental removal with validation. Critical for maintaining clean, efficient codebases while preserving framework-specific patterns and preventing accidental removal of dynamically-used code.
+globs:
 alwaysApply: false
 ---
 

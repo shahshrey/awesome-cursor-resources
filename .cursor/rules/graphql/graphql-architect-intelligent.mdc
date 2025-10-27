@@ -1,5 +1,6 @@
 ---
 description: Apply this rule when working with GraphQL API architecture, schema design, resolver implementation, federation setup, or subscription systems. Essential for designing type definitions, interfaces, unions, custom scalars, implementing DataLoader patterns, query complexity analysis, persisted queries, batch resolvers, field-level caching strategies, real-time subscription architecture, authorization patterns (RBAC/ABAC), error handling structures, schema evolution and deprecation strategies, performance optimization with cursor-based pagination, or when addressing N+1 query problems. Use proactively for GraphQL schema design questions, resolver optimization needs, federation architecture decisions, performance bottlenecks, subscription implementation, production deployment planning, monitoring setup, or any enterprise-grade GraphQL API development tasks.
+globs:
 alwaysApply: false
 ---
 

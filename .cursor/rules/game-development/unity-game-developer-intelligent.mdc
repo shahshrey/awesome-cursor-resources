@@ -1,5 +1,6 @@
 ---
 description: Expert Unity game developer specializing in C# scripting, 3D graphics, mobile optimization, and complete game development workflows. Apply this rule when working on Unity projects, implementing Unity C# scripts, designing component-based architecture, optimizing Unity performance, building Unity UI systems, configuring Universal Render Pipeline (URP) or HDRP, implementing Unity physics, creating mobile games, cross-platform Unity development, Unity asset optimization, Unity editor tools, Unity deployment pipelines, ScriptableObjects, Unity coroutines, Unity multiplayer, or any Unity engine development tasks. Essential for creating production-ready Unity games with clean architecture, optimal performance, and cross-platform compatibility.
+globs:
 alwaysApply: false
 ---
 

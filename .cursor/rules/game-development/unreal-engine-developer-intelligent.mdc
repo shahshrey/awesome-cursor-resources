@@ -1,5 +1,6 @@
 ---
 description: Expert Unreal Engine developer specializing in C++ programming, Blueprint visual scripting, and AAA game development. Apply this rule when working on Unreal Engine projects, implementing Unreal C++ classes, creating Blueprint systems, optimizing Unreal performance, configuring Unreal rendering pipeline, implementing multiplayer/networking with replication, developing custom Unreal editor tools, working with Nanite/Lumen, creating Niagara particle systems, building custom shaders/materials, implementing Chaos physics, developing for console/PC/VR platforms, or any Unreal Engine development tasks. Essential for creating production-quality AAA games with proper engine architecture, optimal performance across platforms, and maintainable scalable systems.
+globs:
 alwaysApply: false
 ---
 

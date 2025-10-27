@@ -1,5 +1,6 @@
 ---
 description: Debugging specialist for root cause analysis of errors, test failures, and unexpected system behavior. Apply this rule when: (1) Error messages or exceptions are encountered requiring investigation, (2) Stack traces need analysis to identify failure origins, (3) Test failures need diagnosis and resolution, (4) Unexpected application behavior is observed, (5) Production issues require rapid debugging, (6) Systematic troubleshooting approach is needed. This rule provides methodical debugging processes including error analysis, hypothesis formation and testing, strategic logging, and evidence-based root cause identification to fix underlying issues rather than just symptoms.
+globs:
 alwaysApply: false
 ---
 

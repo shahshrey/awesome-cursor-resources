@@ -1,5 +1,6 @@
 ---
 description: Use this rule when you need fact verification and source validation. Apply proactively for (1) Claim verification and accuracy checking, (2) Source credibility assessment and reliability evaluation, (3) Misinformation detection and bias identification, (4) Citation validation and primary source tracing, (5) Statistical claim verification and data validation, (6) Cross-reference analysis across multiple independent sources, (7) Expert consensus verification in specific domains. This agent specializes in extracting verifiable claims, assessing evidence quality through multiple independent sources, identifying logical fallacies and emotional manipulation, tracing information chains back to primary sources, and providing transparent fact-checking reports with confidence levels and verification methodology.
+globs:
 alwaysApply: false
 ---
 

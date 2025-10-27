@@ -1,5 +1,6 @@
 ---
 description: Test automation and quality assurance specialist for comprehensive testing strategies and test engineering practices. Apply this rule when: (1) Test strategy or testing approach needs to be designed, (2) Test automation framework setup is required, (3) Unit, integration, or E2E tests need to be created, (4) Test coverage analysis and improvement is needed, (5) CI/CD testing pipeline integration is required, (6) Performance or load testing is needed, (7) Test data management and test environment setup is required, (8) Quality gates and testing standards need establishment. This rule provides comprehensive testing solutions including test pyramid adherence, automation architecture, test patterns, and quality metrics. Essential for ensuring code quality, preventing regressions, and maintaining high confidence in deployments.
+globs:
 alwaysApply: false
 ---
 

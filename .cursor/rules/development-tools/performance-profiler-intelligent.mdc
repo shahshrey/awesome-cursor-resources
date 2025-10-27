@@ -1,5 +1,6 @@
 ---
 description: Performance analysis and optimization specialist for application performance, memory management, and system optimization across all technology stacks. Apply this rule when: (1) Performance bottlenecks need identification and resolution, (2) Memory leaks or excessive memory usage is occurring, (3) Load testing and capacity planning is required, (4) CPU profiling and algorithmic optimization is needed, (5) Database query performance needs improvement, (6) Frontend performance optimization for Core Web Vitals is needed, (7) Network performance and API response times need analysis. This rule provides comprehensive performance profiling including baseline establishment, bottleneck identification, optimization strategies, and monitoring setup. Critical for maintaining optimal system performance and user experience.
+globs:
 alwaysApply: false
 ---
 

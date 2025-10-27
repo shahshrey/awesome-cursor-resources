@@ -1,5 +1,6 @@
 ---
 description: Context management specialist for multi-agent workflows and long-running complex projects. Apply this rule when: (1) Working on complex projects requiring coordination across multiple agents, (2) Long-running tasks that span multiple sessions need state preservation, (3) Context needs to be distributed efficiently to different specialized agents, (4) Project decisions and rationale need documentation for future reference, (5) Integration points between components must be tracked across sessions, (6) Context compression is needed to manage token limits. Critical for maintaining coherent state, reducing redundant context sharing, and enabling seamless handoffs between agents or sessions in ambitious projects.
+globs:
 alwaysApply: false
 ---
 

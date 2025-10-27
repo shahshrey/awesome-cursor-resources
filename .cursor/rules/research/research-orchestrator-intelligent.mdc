@@ -1,5 +1,6 @@
 ---
 description: Use this rule when you need to coordinate a comprehensive research project that requires multiple specialized agents working in sequence. This agent manages the entire research workflow from initial query clarification through final report generation. Apply when (1) User requests thorough research on a complex topic requiring multiple phases and specialized agents, (2) Research needs systematic investigation with quality control between phases, (3) Complex queries require orchestration of clarification, planning, parallel research, synthesis, and reporting. Examples include comprehensive research on quantum computing's impact on cryptography, AI safety research requiring multiple perspectives, or any research requiring coordination of academic, technical, and data analysis specialists. This orchestrator ensures quality gates, maintains state, handles inter-agent dependencies, and synthesizes results from all research phases into cohesive, actionable insights.
+globs:
 alwaysApply: false
 ---
 

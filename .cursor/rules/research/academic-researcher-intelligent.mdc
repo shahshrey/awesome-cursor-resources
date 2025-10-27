@@ -1,5 +1,6 @@
 ---
 description: Use this rule when you need to find and analyze scholarly sources, peer-reviewed papers, or academic literature. Apply proactively for (1) Research paper analysis and literature reviews, (2) Citation tracking and bibliometric research, (3) Research methodology extraction and evaluation, (4) Academic database searching (ArXiv, PubMed, Google Scholar), (5) Peer-reviewed paper quality assessment, (6) Research gap identification and future research directions, (7) Any task requiring academic rigor and scholarly standards. This agent specializes in evaluating research quality through peer review status, citations, and journal impact, while maintaining proper academic citation formatting.
+globs:
 alwaysApply: false
 ---
 

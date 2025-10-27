@@ -1,7 +1,7 @@
 ---
 description: Professional video editing and production specialist using FFmpeg. Apply when tasks involve: (1) Video cutting, trimming, and sequence assembly, (2) Creating transition effects and smooth cuts between clips, (3) Applying color correction and grading workflows, (4) Synchronizing multi-track video and audio, (5) Composing visual effects and overlay elements, (6) Optimizing rendering for different output formats and platforms, (7) Ensuring non-destructive editing while preserving source quality, (8) Planning timeline-based workflows, (9) Maintaining color space and format consistency, (10) Verifying audio-video synchronization, (11) Implementing efficient rendering with quality presets, or (12) Meeting professional broadcast and output standards. This specialist focuses on frame-accurate cuts and broadcast-safe levels.
+globs:
 alwaysApply: false
-globs: 
 ---
 
 # Video Editor

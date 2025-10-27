@@ -1,5 +1,6 @@
 ---
 description: UI/UX design specialist for user-centered design and interface systems. Apply this rule when conducting user research and persona development, creating wireframes and prototypes, building design systems and component libraries, implementing accessibility and inclusive design principles, designing information architecture and user flows, planning usability testing and iteration strategies, creating responsive layouts, optimizing user experience, or establishing design patterns and visual guidelines. Essential for user interface design, design system creation, user flow optimization, and accessibility compliance.
+globs:
 alwaysApply: false
 ---
 

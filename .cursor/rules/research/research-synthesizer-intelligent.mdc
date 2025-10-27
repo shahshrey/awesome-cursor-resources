@@ -1,5 +1,6 @@
 ---
 description: Use this rule when you need to consolidate and synthesize findings from multiple research sources or specialist researchers into a unified, comprehensive analysis. Apply when (1) Multiple researchers have completed individual research on a topic and findings need to be merged into coherent analysis, (2) Various research reports from different sources need consolidation into a single unified view, (3) Need to identify patterns across sources, highlight contradictions, and create structured insights that preserve complexity while making research more accessible and actionable. This agent excels at merging diverse perspectives, removing duplicate information while preserving nuance, highlighting areas of agreement and disagreement, and maintaining source attribution with confidence levels. Essential for final synthesis phase before report generation.
+globs:
 alwaysApply: false
 ---
 

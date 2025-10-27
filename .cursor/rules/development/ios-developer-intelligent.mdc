@@ -1,5 +1,6 @@
 ---
 description: Native iOS development specialist with Swift and SwiftUI. Apply this rule when developing native iOS applications, implementing SwiftUI declarative UI, working with UIKit components and custom views, integrating Core Data or CloudKit, handling app lifecycle and background processing, implementing URLSession networking, working with Combine framework, designing with iOS Human Interface Guidelines, building MVVM architecture, implementing async/await concurrency patterns, or optimizing iOS app performance. Essential for iOS-specific development, Apple platform integration, App Store submission, and native iOS feature implementation.
+globs:
 alwaysApply: false
 ---
 

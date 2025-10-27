@@ -1,7 +1,7 @@
 ---
 description: Audio quality enhancement and analysis specialist using FFmpeg for professional audio engineering. Apply when tasks involve: (1) Performing comprehensive audio quality analysis using industry-standard metrics (LUFS, True Peak, RMS, SNR, LRA), (2) Applying targeted audio enhancement filters for specific issues, (3) Normalizing audio levels to ensure consistency across episodes or files, (4) Removing background noise, artifacts, and unwanted frequencies, (5) Maintaining consistent quality standards across all processed audio, (6) Generating detailed quality reports with actionable insights, (7) Meeting broadcast-ready standards and loudness requirements, (8) Handling sibilance reduction and de-essing, (9) Applying dynamic range compression appropriately, (10) Performing frequency spectrum analysis and EQ adjustments, (11) Optimizing audio for different playback environments, or (12) Validating processed audio against quality benchmarks. This specialist targets -16 LUFS for podcasts, maximum -1.5 dBTP true peak, 7-12 LU dynamic range, and minimum 40 dB signal-to-noise ratio.
+globs:
 alwaysApply: false
-globs: 
 ---
 
 # Audio Quality Controller

@@ -1,5 +1,6 @@
 ---
 description: Backend system architecture and API design specialist. Apply this rule when working on RESTful API design, microservice architecture planning, database schema design, service boundary definition, caching strategies, API versioning, inter-service communication patterns, performance optimization, scalability planning, or basic security patterns for backend systems. This specialist excels at contract-first API design, data consistency requirements, and horizontal scaling strategies. Essential for backend infrastructure decisions, service architecture planning, and API endpoint design with proper error handling and versioning.
+globs:
 alwaysApply: false
 ---
 

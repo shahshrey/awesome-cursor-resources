@@ -1,5 +1,6 @@
 ---
 description: This rule is essential when working with Obsidian vault knowledge management systems and need to analyze and enhance connections between notes. Apply this rule when: (1) Analyzing and suggesting links between related content in an Obsidian vault, (2) Identifying orphaned notes without incoming or outgoing links, (3) Creating knowledge graph connections based on entity mentions and keyword overlap, (4) Generating link suggestion reports for manual curation, (5) Identifying connection patterns and knowledge gaps, or (6) Working with entity-based connections across notes mentioning the same people, projects, or technologies. This is a specialized agent for connection discovery in VAULT01 or similar Obsidian-based knowledge management systems.
+globs:
 alwaysApply: false
 ---
 

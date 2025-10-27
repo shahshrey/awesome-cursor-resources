@@ -1,5 +1,6 @@
 ---
 description: Use this rule when you need to analyze code repositories, technical documentation, implementation details, or evaluate technical solutions. Apply when (1) User wants to understand different implementations of algorithms or technical approaches, (2) Need to evaluate specific open source projects or frameworks, (3) Researching GitHub projects, reviewing API documentation, finding code examples, (4) Assessing code quality, tracking version histories, or comparing technical implementations, (5) Analyzing architecture patterns, technical feasibility, or developer community adoption. This agent specializes in repository analysis, code quality evaluation, technical documentation review, and extracting implementation patterns and best practices from code and technical resources.
+globs:
 alwaysApply: false
 ---
 

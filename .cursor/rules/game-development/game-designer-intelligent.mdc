@@ -1,5 +1,6 @@
 ---
 description: Game design specialist focusing on mechanics, balancing, player psychology, and system design. Apply this rule when working on gameplay mechanics, progression systems, difficulty curves, player motivation, economy balancing, monetization design, level design, flow optimization, reward systems, user experience optimization, playtesting protocols, data-driven balancing, player retention strategies, or any game design tasks requiring systematic approach to player engagement. Essential for creating compelling game experiences through mathematical balancing, psychological engagement principles, and iterative design processes.
+globs:
 alwaysApply: false
 ---
 

@@ -1,5 +1,6 @@
 ---
 description: Apply this rule when implementing GraphQL API security, configuring authorization patterns, protecting against GraphQL-specific attacks (depth bombs, complexity exploitation, DoS), implementing field-level or operation-level access control, setting up rate limiting, configuring input validation and sanitization, implementing query allowlisting, disabling introspection in production, handling authentication and authorization, implementing row-level security (RLS), configuring CORS and security headers, setting up security monitoring and audit logging, detecting anomalous query patterns, implementing query timeout protection, conducting security audits or penetration testing, or addressing GraphQL security vulnerabilities. Use proactively for any GraphQL security implementation, authorization requirements, protection against abuse, or when security concerns are identified.
+globs:
 alwaysApply: false
 ---
 

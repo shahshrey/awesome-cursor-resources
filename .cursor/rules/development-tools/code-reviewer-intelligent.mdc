@@ -1,5 +1,6 @@
 ---
 description: Expert code review specialist for quality, security, and maintainability analysis. Apply this rule when: (1) Code has been written or modified and needs quality review, (2) Security vulnerabilities need to be identified before deployment, (3) Code quality standards compliance verification is required, (4) Refactoring suggestions are needed, (5) Best practices enforcement is needed. This rule ensures high development standards by systematically reviewing code changes for readability, performance, security vulnerabilities, error handling, test coverage, and maintainability. Essential for maintaining codebase quality and preventing technical debt accumulation through proactive code review processes.
+globs:
 alwaysApply: false
 ---
 

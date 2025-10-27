@@ -1,5 +1,6 @@
 ---
 description: Use this rule when you need to transform a user's research query into a structured, actionable research brief that will guide subsequent research activities. Apply when (1) User has asked a research question that needs to be structured into a formal research plan, (2) After query clarification, need to create a comprehensive research framework with specific questions, keywords, source preferences, and success criteria, (3) Need to break down complex queries into manageable, specific research objectives. This agent analyzes refined queries to extract primary research objective, implicit assumptions, scope boundaries, and expected outcome type, then generates comprehensive keyword sets (primary, secondary, exclusion), determines optimal source distribution (academic, news, technical, data), establishes temporal/geographic/depth scope, and defines measurable success criteria. Outputs structured JSON for seamless workflow integration.
+globs:
 alwaysApply: false
 ---
 

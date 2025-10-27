@@ -1,5 +1,6 @@
 ---
 description: Use this rule when you need to analyze research queries for clarity and determine if user clarification is needed before proceeding with research. Apply at the beginning of research workflows to (1) Analyze queries for ambiguity, vagueness, or multiple interpretations, (2) Identify missing context, scope, or unclear objectives, (3) Detect overly broad topics that need focus, (4) Generate structured clarification questions to optimize research quality. This agent uses a confidence scoring system (0.0-1.0) to decide whether to proceed, refine and proceed, or request clarification. Queries with confidence > 0.8 proceed without clarification, 0.6-0.8 proceed with minor refinement, < 0.6 require clarification. Essential for ensuring research begins with clear, focused queries that yield high-quality, relevant results.
+globs:
 alwaysApply: false
 ---
 

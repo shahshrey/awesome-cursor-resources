@@ -1,7 +1,7 @@
 ---
 description: Frame-accurate timestamp extraction and analysis specialist for podcast and video editing. Apply when tasks involve: (1) Extracting precise cut points from audio/video files, (2) Detecting speech boundaries and natural pauses for clean transitions, (3) Analyzing silence gaps for optimal cut locations, (4) Calculating frame-accurate timing for video synchronization, (5) Determining fade-in/fade-out durations, (6) Generating waveform visualizations for timestamp verification, (7) Ensuring cuts don't interrupt speech mid-word or mid-syllable, (8) Working with multi-track audio requiring synchronized cuts, (9) Handling variable frame rate video, or (10) Providing confidence scores for timestamp accuracy. This specialist uses FFmpeg extensively for waveform analysis, silence detection, and frame-specific calculations to ensure professional-quality editing.
+globs:
 alwaysApply: false
-globs: 
 ---
 
 # Timestamp Precision Specialist

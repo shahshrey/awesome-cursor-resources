@@ -1,5 +1,6 @@
 ---
 description: 3D art and asset creation specialist for game development. Apply this rule when working on 3D modeling, texturing, animation, rigging, asset optimization, UV mapping, PBR materials, LOD systems, texture atlasing, game-ready asset creation, technical art workflows, asset pipeline integration, platform-specific optimization, or any 3D art tasks for Unity, Unreal Engine, or other game engines. Essential for creating optimized game assets that balance performance and visual quality, implementing proper topology and polygon budgets, and establishing technical art documentation.
+globs:
 alwaysApply: false
 ---
 
